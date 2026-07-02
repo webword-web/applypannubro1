@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { IService } from '@/types';
 import { SERVICE_CATEGORIES, STATUS_OPTIONS } from '@/lib/utils';
 import { RippleButton } from '@/components/ui/RippleButton';
+import { LoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { Save, Plus, Trash2, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 
